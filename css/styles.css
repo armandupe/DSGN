@@ -1,0 +1,52 @@
+main {
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+.section-header {
+    
+}
+
+header {
+   background-color: azure;
+}
+
+.socials a {
+    display: block;
+}
+
+.socials li {
+    list-style: none;
+}
+
+.facebook {
+    width: 20px;
+    height: 25px;
+    background: url(../images/spritesheet.png) no-repeat 40% 20%;
+}
+
+.twitter {
+    width: 35px;
+    height: 30px;
+    background: url(../images/spritesheet.png) no-repeat 100% 20%;
+}
+
+
+
+.linkedin {
+    width: 30px;
+    height: 30px;
+    background: url(../images/spritesheet.png) no-repeat 73% 20%;
+}
+
+.googleplus {
+    width: 30px;
+    height: 30px;
+    background: url(../images/spritesheet.png) no-repeat 53% 20%;
+}
+
+.line {
+    max-width: 100px;
+    height: 100px;
+    background: url(../images/line.png) no-repeat;
+}
