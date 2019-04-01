@@ -1,6 +1,5 @@
 <!doctype html>
 <html lang="en">
-
 <head>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -10,80 +9,75 @@
   <link rel="stylesheet" href="css/normalize.css">
   <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400" rel="stylesheet">
   <link rel="stylesheet" href="css/styles.css">
-  <link rel="stylesheet" href="css/media.css">
+  <!-- <link rel="stylesheet" href="css/media.css"> -->
 </head>
-
 <body>
   <!--[if lte IE 9]>
     <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
   <![endif]-->
-  <main>
-    <section class="section-header">
-      <header>
-        <div class="container-header">
-          <a href=""><img src="images/logo.png" alt="DSGN Logo"></a>
-          <h1><span>ASSOCIATES</span><span>STUDIO</span><span>DESIGN</span></h1>
-          <ul class="socials">
-            <li><a href="https://facebook.com" class="facebook"></a></li>
-            <li><a href="https://twitter.com" class="twitter"></a></li>
-            <li><a href="https://linkedin.com" class="linkedin"></a></li>
-            <li><a href="https://google.com" class="googleplus"></a></li>
+  <main class="page">
+    <section class="main-section">
+      <header class="header">
+        <div class="header__logo">
+          <a class="header__link" href=""><img class="header__img" src="images/logo.png" alt="DSGN Logo"></a>
+          <h1 class="header__h1">ASSOCIATES STUDIO DESIGN</h1>
+          <ul class="header__socials">
+            <li class="header__socials-item"><a class="header__socials-link-facebook" href="https://facebook.com"></a></li>
+            <li class="header__socials-item"><a class="header__socials-link-twitter" href="https://twitter.com"></a></li>
+            <li class="header__socials-item"><a class="header__socials-link-linkedin" href="https://linkedin.com"></a></li>
+            <li class="header__socials-item"><a class="header__socials-link-google" href="https://google.com"></a></li>
           </ul>
         </div>
-        <div class="container-header-img">
-          <img src="images/background.png" alt="">
-        </div>
       </header>
-
-      <div class="menu">
-        <div class="menu-navigation">
-          <a href="">HOME</a>
-          <a href="">PROJECTS</a>
-          <a href="">STUDIO</a>
-          <a href="">NEWS</a>
-          <a href="">CONTACT</a>
-          <a id="close-menu" href=""><img src="images/cross-menu.png" alt=""></a>
+      <nav class="menu">
+        <div class="menu__navigation">
+          <ul class="menu__list">
+            <li class="menu__list-item"><a class="menu__link" href="#">HOME</a></li>
+            <li class="menu__list-item"><a class="menu__link" href="#">PROJECTS</a></li>
+            <li class="menu__list-item"><a class="menu__link" href="#">STUDIO</a></li>
+            <li class="menu__list-item"><a class="menu__link" href="#">NEWS</a></li>
+            <li class="menu__list-item"><a class="menu__link" href="#">CONTACT</a></li>
+            <li class="menu__list-item"><a class="menu__link" id="close" href="#"><img class="menu__link-img" src="images/cross-menu.png" alt=""></a></li>
+          </ul>
         </div>
-        <div class="menu-hamburger">
-          <div class="menu-hamburger-linesContainer">
-            <div class="hamburgerLine"></div>
-            <div class="hamburgerLine"></div>
-            <div class="hamburgerLine"></div>
+        <div class="burger-menu burger-menu_container">
+          <div class="burger-menu__lines-container">
+            <div class="burger-menu__line-1"></div>
+            <div class="burger-menu__line-2"></div>
+            <div class="burger-menu__line-3"></div>
           </div>
         </div>   
-          <p class="menu-address">90802 CALIFORNIA <br> LONG BEACH <br> PO BOX 68789 <br> 300 EAST OCEAN <br> BOULEVARD</p>
-          <p class="menu-phoneAndEmail">+64 9 345 6758 <br> INFO@DSGN-STUDIO.COM</p>
-      </div>
+        <p class="menu__address">90802 CALIFORNIA LONG BEACH PO BOX 68789 300 EAST OCEAN BOULEVARD</p>
+        <p class="menu__phone-email">+64 9 345 6758 INFO@DSGN-STUDIO.COM</p>
+      </nav>
     </section>
-      
-    <section class="section-projects">
-      <div class="section-projects__all-projects">
-        <ul>
-          <li><a href="">ALL</a></li>
-          <li><a href="">HOUSE</a></li>
-          <li><a href="">COMMERCIAL</a></li>
-          <li><a href="">PERSONAL</a></li>
-          <li><a href="">STUDIO LAB</a></li>
+    <section class="projects-section">
+      <div class="projects">
+        <ul class="projects__list">
+          <li class="projects__item"><a class="projects__link" href="">ALL</a></li>
+          <li class="projects__item"><a class="projects__link" href="">HOUSE</a></li>
+          <li class="projects__item"><a class="projects__link" href="">COMMERCIAL</a></li>
+          <li class="projects__item"><a class="projects__link" href="">PERSONAL</a></li>
+          <li class="projects__item"><a class="projects__link" href="">STUDIO LAB</a></li>
         </ul>
-        <h2>PROJECTS</h2>
+        <h2 class="projects__title">PROJECTS</h2>
       </div>
-        
-      <div class="section-projects__product-fondue">
-          <div class="section-projects__product-fondue-container">
-              <h2>FONDUE</h2>
-              <ul>
-                <li><b>PROJECT ASSISTANT: </b>FRANCESCO DOMPIERI</li>
-                <li><b>MATERIAL: </b>GLASS AND METAL</li>
-                <li><b>TYPOLOGY: </b>SUSPENSION LAMP</li>
-                <li><b>CLIENT: </b>DAVID DESIGN</li>
-                <li><b>YEAR: </b>2014</li>
-              </ul>
-              <p class="view-project"><a href="">VIEW PROJECT</a></p>
-              <div class="like like-fondue"></div>
-          </div> 
-          <div class="section-projects__product-fondue-img">
+      <div class="projects-fondue">
+        <h2 class="projects-fondue__title">FONDUE</h2>
+        <ul class="projects-fondue__list">
+          <li class="projects-fondue__item"><b>PROJECT ASSISTANT: </b>FRANCESCO DOMPIERI</li>
+          <li class="projects-fondue__item"><b>MATERIAL: </b>GLASS AND METAL</li>
+          <li class="projects-fondue__item"><b>TYPOLOGY: </b>SUSPENSION LAMP</li>
+          <li class="projects-fondue__item"><b>CLIENT: </b>DAVID DESIGN</li>
+          <li class="projects-fondue__item"><b>YEAR: </b>2014</li>
+        </ul>
+        <div class="view-project view-project_fondue">
+          <a class="view-project__link" href="">VIEW PROJECT</a>
+        </div>
+        <div class="like like_fondue"></div>
+          <!-- <div class="section-projects__product-fondue-img">
             <img src="images/img.png" alt="">
-          </div>
+          </div> -->
       </div>
 
       <div class="wrapper">
@@ -125,8 +119,11 @@
   <script src="js/vendor/jquery-3.3.1.min.js"></script>
   <script>
   $(document).ready(function(){
-    $(".menu-hamburger").click(function(){
-      $(".menu-navigation").toggle();
+    $(".burger-menu").click(function(){
+      $(".menu__navigation").fadeIn(500);
+    });
+    $("#close").click(function(){
+      $(".menu__navigation").fadeOut(500);
     });
   });
   </script>
