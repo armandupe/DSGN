@@ -9,12 +9,8 @@
   <link rel="stylesheet" href="css/normalize.css">
   <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400" rel="stylesheet">
   <link rel="stylesheet" href="css/styles.css">
-  <!-- <link rel="stylesheet" href="css/media.css"> -->
 </head>
 <body>
-  <!--[if lte IE 9]>
-    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
-  <![endif]-->
   <main class="page">
     <section class="main-section">
       <header class="header">
@@ -74,60 +70,41 @@
         <div class="view-project view-project_fondue">
           <a class="view-project__link" href="">VIEW PROJECT</a>
         </div>
-        <div class="like like_fondue"></div>
-          <!-- <div class="section-projects__product-fondue-img">
-            <img src="images/img.png" alt="">
-          </div> -->
       </div>
 
       <div class="wrapper">
-
-        <div class="section-projects__product-potter">
-          <div class="section-projects__product-potter-container">
-            <h2>POTTER</h2>
-            <p><b>FOR </b>STELTON</p>
-            <p>Pot&#173;ter fo&#173;cus&#173;es on the func&#173;tion&#173;al&#173;i&#173;ty and pro&#173;cess of prepar&#173;ing tea. a big sieve al&#173;lows the flavour of to even&#173;ly brewed.</p>
-            <p class="view-project"><a href="">VIEW PROJECT</a></p>
-            <div class="like like-potter"></div>
-          </div>
-          <div class="section-projects__product-potter-img">
-            <img src="images/img1.png" alt="">
+        <div class="projects-potter">
+          <h2 class="projects-potter__title">POTTER</h2>
+          <p class="projects-potter__usage"><b>FOR </b>STELTON</p>
+          <p class="projects-potter__description">Potter focuses on the functionality and process of preparing tea. a big sieve allows the flavour of to evenly brewed.</p>
+          <div class="view-project view-project_potter">
+            <a class="view-project__link" href="">VIEW PROJECT</a>
           </div>
         </div>
-
-        <div class="section-projects__product-fiji">
-          <div class="section-projects__product-fiji-img">
-            <img src="images/img2.png" alt="">
-          </div>
-          <div class="section-projects__product-fiji-container">
-            <h2>FIJI</h2>
-            <ul>
-              <li><b>DESIGNER: </b>CUNO FROMMHERZ</li>
-              <li><b>TYPOLOGY: </b>ARMCHAIRS</li>
-              <li><b>YEAR: </b>2012</li>
-            </ul>
-            <p class="view-project"><a href="">VIEW PROJECT</a></p>
-            <div class="like like-fiji"></div>
+        <div class="projects-fiji">
+          <h2 class="projects-fiji__title">FIJI</h2>
+          <ul class="projects-fiji__list">
+            <li class="projects-fiji__item"><b>DESIGNER: </b>CUNO FROMMHERZ</li>
+            <li class="projects-fiji__item"><b>TYPOLOGY: </b>ARMCHAIRS</li>
+            <li class="projects-fiji__item"><b>YEAR: </b>2012</li>
+          </ul>
+          <div class="view-project view-project_fiji">
+            <a class="view-project__link" href="">VIEW PROJECT</a>
           </div>
         </div>
-
       </div>
-
       </section>
   </main>
-  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
   <script src="js/vendor/jquery-3.3.1.min.js"></script>
   <script>
   $(document).ready(function(){
     $(".burger-menu").click(function(){
-      $(".menu__navigation").fadeIn(500);
+      $(".menu__navigation").fadeToggle(500);
     });
     $("#close").click(function(){
       $(".menu__navigation").fadeOut(500);
     });
   });
   </script>
-  
 </body>
-
 </html>
