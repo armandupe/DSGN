@@ -23,7 +23,7 @@ main {
   display: flex;
   width: 70%;
   height: auto;
-  background: url(/images/background.png) 90% no-repeat;
+  background: url(../images/background.png) 90% no-repeat;
   background-color: #e9eae2;
   background-size: contain;
 }
@@ -843,7 +843,7 @@ main {
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
-  background: url(/images/img1.png) 90% no-repeat;
+  background: url(../images/img1.png) 90% no-repeat;
   background-color: #e0e1db;
 }
 
@@ -1053,7 +1053,7 @@ main {
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
-  background: url(/images/img2.png) 90% no-repeat;
+  background: url(../images/img2.png) 90% no-repeat;
 }
 
 @media (max-width: 1200px) {
